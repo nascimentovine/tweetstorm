@@ -7,7 +7,7 @@ class tweetStorm{
 	private $tweet = ""; 
 	private $return = "";
 	public function __construct($file){
-       $this->file_name = $file;
+      $this->file_name = $file;
 	}
 	public function TweetGenerator(){
 		$str = utf8_encode(file_get_contents($this->file_name));
